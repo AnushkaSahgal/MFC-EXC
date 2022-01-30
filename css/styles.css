@@ -1,0 +1,223 @@
+
+body {
+    background-color: #BDD2B6;
+    text-align:center;
+    list-style-position:inside;
+}
+h1 {
+    font-family: 'Lora', serif;
+    font-size: 65px;
+    color: #064420;
+}
+h2 {
+    font-family: 'Lora', serif;
+    font-size: 50px;
+    margin: 20px;
+    color: #064420;
+}
+h3 {
+    color: #275c24;
+}
+p {
+    font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+    font-size:30px;
+    margin:2% 10% 2% 10%;
+    color: #275c24;
+    
+}
+.Second {
+    padding-bottom: 100px;
+    padding-top: 100px;
+    margin-bottom: 400px;;
+    font-family: 'Lora', serif;
+    font-size: 40px;
+    background-color: #519259;
+    color: #E9C891;
+}
+.Third {
+    margin-top:200px;
+    position: relative;
+    bottom:0;
+    font-size: 20px;
+}
+.Fourth {
+    background-color: #519259;
+    font-size:25px;
+    position: relative;
+    bottom:0;
+}
+
+ol {
+    color: #1E6F5C;
+    font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+    font-size: 30px;
+}
+
+
+.head {
+    color:#06440d;
+    font-size: 40px;
+}
+
+.face {
+    height: 130px;
+    width: 130px;
+    position: relative;
+}
+.skin {
+    background-color: rgb(222, 226, 170);
+    padding-top: 10px;
+    padding-bottom: 60px;   
+}
+.haircare {
+    height: 130px;
+    width: 130px;
+    position: relative;
+}
+.hair {
+    background-color: rgb(222, 226, 170);
+    padding-top: 10px;
+    padding-bottom: 60px;   
+}
+.bodycare {
+    height: 130px;
+    width: 130px;
+    position: relative;
+}
+.body {
+    background-color: rgb(222, 226, 170);
+    padding-top: 10px;
+    padding-bottom: 60px;   
+}
+
+.top-nature
+{
+    width: 100%;
+    height: 500px;
+}
+hr {
+    border-style: none;
+      border-color: rgb(175, 173, 173);
+      border-top-style: dotted;
+      border-width: 10px;
+      height: 0px;
+      width: 5%; 
+}
+a {
+    color: #BFD8B8;
+}
+
+/*3 pictures side by side*/
+.column {
+    float: left;
+    width: 33.33%;
+}
+.row::after {
+    content:"";
+    clear:both;
+    display:table;
+}
+
+/*pictures and text side by side*/
+.clearskin {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    line-height: 2;
+    text-align:left;
+}
+.lentils {
+    width: 50%;
+    float: left;
+    margin-right: 30px;
+}
+.hairfall {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    line-height: 2;
+    text-align:left;
+}
+.aloevera {
+    width: 50%;
+    float: left;
+    margin-right: 30px;
+}
+.onion {
+    width: 50%;
+    float: right;
+    margin-right: 30px;
+}
+.dandruff {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    line-height: 2;
+    text-align:left;
+}
+.curry {
+    width: 50%;
+    float: left;
+    margin-right: 30px;
+}
+.curd {
+    width: 50%;
+    float: right;
+    margin-right: 30px;
+}
+.eyes {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    line-height: 2;
+    text-align:left;
+}
+.triphla {
+    width: 50%;
+    float: left;
+    margin-right: 30px;
+}
+.headache {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    line-height: 2;
+    text-align:left;
+}
+.ginger {
+    width: 50%;
+    float: left;
+    margin-right: 30px;
+}
+.milk {
+    width: 50%;
+    float: right;
+    margin-right: 30px;
+}
+
+/*button for contacting*/
+.btn {
+    background: #30b85f;
+    background-image: -webkit-linear-gradient(top, #30b85f, #0e9664);
+    background-image: -moz-linear-gradient(top, #30b85f, #0e9664);
+    background-image: -ms-linear-gradient(top, #30b85f, #0e9664);
+    background-image: -o-linear-gradient(top, #30b85f, #0e9664);
+    background-image: linear-gradient(to bottom, #30b85f, #0e9664);
+    -webkit-border-radius: 24;
+    -moz-border-radius: 24;
+    border-radius: 24px;
+    -webkit-box-shadow: 0px 1px 3px #000000;
+    -moz-box-shadow: 0px 1px 3px #000000;
+    box-shadow: 0px 1px 3px #000000;
+    font-family: Georgia;
+    color: #c9ffeb;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #2b875e;
+    background-image: -webkit-linear-gradient(top, #2b875e, #275c24);
+    background-image: -moz-linear-gradient(top, #2b875e, #275c24);
+    background-image: -ms-linear-gradient(top, #2b875e, #275c24);
+    background-image: -o-linear-gradient(top, #2b875e, #275c24);
+    background-image: linear-gradient(to bottom, #2b875e, #275c24);
+    text-decoration: none;
+  }
+  
