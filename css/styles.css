@@ -22,8 +22,10 @@ p {
     font-family: 'IBM Plex Sans Thai Looped', sans-serif;
     font-size:30px;
     margin:2% 10% 2% 10%;
-    color: #275c24;
-    
+    color: #275c24; 
+}
+form {
+    color: #297e33;
 }
 .Second {
     padding-bottom: 100px;
